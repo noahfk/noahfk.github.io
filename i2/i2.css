@@ -3,17 +3,49 @@ body {
 }
 
 
-div#logo {
-margin-left:auto;
-margin-right:auto;
-margin-top:30px;
-width:1026px;
-height:843px;
+div#container {
+	margin:0px;
+	width: 100%;
+	height: 100%;
+
 }
 
-div#container {
-margin-left:auto;
-margin-right:auto;
-width:100%;
-height 100%;
+div#intro {
+	
+	width:100%;
+	height:137px;
+	background-image: url('shadow.png');
+    background-repeat: repeat-x;
+}
+
+div#box {
+	padding:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:1026px;
+	height:843px;
+}
+
+div#footer{
+	font-family: "Helvetica", Arial;
+	color:#b3b3b3;
+	font-size:14px;
+	text-align:center;
+	padding-top:20px;
+	border:10px;
+	width:410px;
+	margin-top:0px;
+	height:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul {
+	list-style-type:none;
+}
+
+li {
+	padding:4px;
 }
